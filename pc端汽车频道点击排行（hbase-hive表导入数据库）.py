@@ -10,12 +10,12 @@ import sys
 os.environ['NLS_LANG'] = '.UTF8'
 
 def hivedb():
-        server = pyhs2.connect(host= '10.90.7.187',port =10000,user='hadoop',authMechanism = 'PLAIN')
+        server = pyhs2.connect(host= '#.187',port =10000,user='hadoop',authMechanism = 'PLAIN')
         client = server.cursor()
         return server,client
 
 def db_77():
-        con = cx_Oracle.connect('web','adm2017in09g08web','10.90.19.2:1521/orcl')
+        con = cx_Oracle.connect('web','#','#:1521/orcl')
         cur = con.cursor()
         return con,cur
 
