@@ -15,7 +15,7 @@ def hivedb():
         return server,client
 
 def db_77():
-        con = cx_Oracle.connect('web','#','#:1521/orcl')
+        con = cx_Oracle.connect('web','密码','数据库地址:1521/orcl')
         cur = con.cursor()
         return con,cur
 
