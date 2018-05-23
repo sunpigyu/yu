@@ -8,7 +8,7 @@ from hdfs.client import Client
 os.environ['NLS_LANG'] = '.UTF8'
 
 def db_192():
-	con = cx_Oracle.connect('web','adm2017in09g08web','10.90.19.2:1521/orcl')
+	con = cx_Oracle.connect('web','数据库密码','数据库地址:1521/orcl')
 	cur = con.cursor()
 	return con,cur
 def fhhSet():
